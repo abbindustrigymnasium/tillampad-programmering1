@@ -98,16 +98,6 @@ Etik är inte bara regler. Den som kan säkerhet vet ofta hur skada görs, och v
 - **Dataintrång:** brott där någon olovligen tar del av eller ändrar uppgifter i ett datasystem.
 - **Personuppgift:** information som kan kopplas till en levande person.
 
-## Testa dig själv
-
-1. Ge ett eget exempel på ett brott mot riktigheten.
-2. Förklara skillnaden mellan hot och sårbarhet.
-3. Varför hjälper MFA även om lösenordet har läckt?
-4. Varför är riskvärdet i en riskmatris en bedömning och inte en mätning?
-5. Varför multipliceras antalet kombinationer med 7 776 för varje extra ord?
-6. Varför gör tillstånd skillnad, om det du gör tekniskt sett är samma sak?
-7. Vad gör du om du råkar upptäcka en säkerhetsbrist på en webbplats?
-
 ## Koppling till projektet
 
 Det här är bakgrunden till [Cyberintro](../projekt/cyberintro/README.md). Oavsett hur läraren lägger upp projektet gäller regeln om tillstånd, och riskanalysen återkommer i [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md).

@@ -100,15 +100,6 @@ Skriv en **projektlogg** med några rader per arbetspass: vad du gjorde, vad som
 - **Sprint:** en kort, tidsbegränsad arbetsperiod i Scrum.
 - **Tidsbuffert:** tid som reserveras för det oväntade.
 
-## Testa dig själv
-
-1. Varför är "bygga en app" ingen bra problemformulering?
-2. Skriv om kravet "spelet ska vara kul" så att det går att testa, eller förklara varför det är svårt.
-3. När passar vattenfall bättre än en agil process?
-4. Ge ett exempel på hur en ändring i kraven påverkar någon annan del i processen.
-5. Varför bygger du MVP:n först?
-6. Vad händer med planen om du inte reserverar tid för det oväntade?
-
 ## Koppling till projektet
 
 Det här kapitlet används först i [Önskeprojekt](../projekt/onskeprojekt/README.md), där du själv avgränsar vad du ska bygga. Planeringssätten kommer du att använda igen i [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md).

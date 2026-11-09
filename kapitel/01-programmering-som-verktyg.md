@@ -110,15 +110,6 @@ Det här är en viktig princip i hela kursen. Ett program behandlar de **data** 
 - **Tillstånd:** det programmet minns mellan händelser.
 - **Logg:** en fil där ett system antecknar vad som händer.
 
-## Testa dig själv
-
-1. Varför räcker det inte att kunna ett programmeringsspråk för att lösa ett problem inom ett område?
-2. Vilken abstraktion görs när en tunnelbanekarta ritas?
-3. Peka ut indata, bearbetning och utdata i exemplet med loggen.
-4. Vad är tillståndet i funktionen `rakna_fel`?
-5. Varför är det bra att `misstankta` är en egen funktion?
-6. Varför kan programmet inte avgöra om `kontoB` är utsatt för en attack?
-
 ## Koppling till projektet
 
 Kapitlet är grunden för alla fyra projekten. I [Cyberintro](../projekt/cyberintro/README.md) är loggar och begreppet tillstånd en bra början, och modellerna kommer tillbaka i [Önskeprojekt](../projekt/onskeprojekt/README.md) och [Robotik: Sköldpaddan](../projekt/skoldpaddan/README.md).

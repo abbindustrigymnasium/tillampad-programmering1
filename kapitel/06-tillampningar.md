@@ -107,16 +107,6 @@ Ett sätt att jämföra alternativ är en enkel tabell där varje alternativ få
 - **API:** ett bestämt sätt för program att kommunicera med varandra.
 - **Pixel:** en punkt i en bild, oftast beskriven med tre färgvärden.
 
-## Testa dig själv
-
-1. Varför är förutsägbarhet så viktig i industriell programmering?
-2. Varför ska nödstopp inte hanteras med vanlig programkod?
-3. Vad händer i ett spel om du inte använder delta time?
-4. Varför är CRUD enkelt att koda men svårt att göra rätt?
-5. Varför måste film komprimeras?
-6. Vad är skillnaden mellan ett pedagogiskt program som rättar och ett som förklarar?
-7. Vilka frågor hjälper dig att välja verktyg?
-
 ## Koppling till projektet
 
 I [Önskeprojekt](../projekt/onskeprojekt/README.md) väljer du område och verktyg själv. Frågorna ovan hjälper dig att göra och motivera det valet.

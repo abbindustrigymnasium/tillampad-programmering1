@@ -97,16 +97,6 @@ Anpassa språket. Någon utan teknisk bakgrund behöver veta vad produkten gör 
 - **Nollpunkt:** antalet användare eller försäljningar som krävs för att täcka kostnaderna.
 - **Pitch:** en kort presentation av en idé eller produkt.
 
-## Testa dig själv
-
-1. Hur hänger förstudien ihop med genomförandet?
-2. Varför ska du inte hjälpa testpersonen under användartestet?
-3. Varför är fem testpersoner för få för statistik men ändå värdefullt?
-4. Varför är "alla" en dålig målgrupp?
-5. Vad är skillnaden mellan pris och bidrag per användare?
-6. Vilket antagande i exemplet är mest osäkert, och hur kan du testa det?
-7. Varför bör en demonstration ha en reservplan?
-
 ## Koppling till projektet
 
 Kapitlet täcker de delar som kommer efter förstudien i [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md). I lektionsplanen avslutas projektet med en redovisning, så presentationsdelen kommer till användning där.

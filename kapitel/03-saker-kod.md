@@ -122,16 +122,6 @@ Ingen hinner stoppa allt. Därför ska ett system kunna upptäcka misstänkta m�
 - **Salt:** slumpdata som gör varje lösenords hashvärde unikt.
 - **API-nyckel:** en kod som ger ett program tillgång till en tjänst.
 
-## Testa dig själv
-
-1. Varför räcker det inte att kontrollera indata i webbläsaren?
-2. Varför är en tillåtelselista bättre än att lista det som är farligt?
-3. Vad gör en platshållare i en SQL-fråga?
-4. Varför sparas lösenord som hashvärden och inte i klartext?
-5. Vad är saltets uppgift?
-6. Varför ska en lösenordshash vara långsam?
-7. Vad ska du göra om en API-nyckel råkar hamna på GitHub?
-
 ## Koppling till projektet
 
 Kapitlet ger dig försvarssidan av [Cyberintro](../projekt/cyberintro/README.md). Vanorna är också värda att ta med till alla program du bygger i [Önskeprojekt](../projekt/onskeprojekt/README.md) och i [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md).

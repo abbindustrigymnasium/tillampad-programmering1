@@ -158,16 +158,6 @@ En simulering är en modell, och den har gränser. I turtlesim är positionen ex
 - **Tillståndsmaskin:** en modell där programmet är i ett tillstånd i taget.
 - **Simulator:** ett program som efterliknar något verkligt.
 
-## Testa dig själv
-
-1. Vad är skillnaden mellan ett topic och en service?
-2. Varför är det bra att noder inte behöver veta vilka som lyssnar?
-3. Vilken radie får en cirkel med v = 3 och ω = 1,5?
-4. Hur lång tid tar en halv vridning med ω = 1,0 rad/s?
-5. Vilka tillstånd finns i exemplet, och vad får roboten att byta?
-6. Varför är det bra att hålla logiken skild från ROS2-koden?
-7. Vad är det som en simulator inte kan visa?
-
 ## Koppling till projektet
 
 Det här kapitlet förbereder [Robotik: Sköldpaddan](../projekt/skoldpaddan/README.md). Labbarna i [ROS2-repot](https://github.com/abbjetmus/ROS2) går igenom begreppen praktiskt, från att starta turtlesim till att skriva egna noder.

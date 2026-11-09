@@ -118,16 +118,6 @@ Du får `0.30000000000000004` och `False`, eftersom talen lagras binärt och 0,1
 - **Linjär och binär sökning:** att gå igenom allt, respektive att halvera sökområdet.
 - **Stopproblemet:** det bevisat olösbara problemet att avgöra om vilket program som helst stannar.
 
-## Testa dig själv
-
-1. Varför skriver du exempel med väntat svar innan du börjar koda?
-2. Vad kontrollerar det sista testet i exemplet, och varför är det viktigt?
-3. Varför är det dåligt att ändra flera saker samtidigt när du felsöker?
-4. Vad krävs för att binär sökning ska fungera?
-5. Hur många steg behöver binär sökning ungefär för en miljon tal?
-6. Varför ska du inte använda `==` på decimaltal?
-7. Vad betyder det att stopproblemet är olösbart?
-
 ## Koppling till projektet
 
 Du använder de här arbetssätten direkt i [Önskeprojekt](../projekt/onskeprojekt/README.md). Dessutom är dina testresultat och dina val av strategi ett bra underlag när du ska reflektera över och värdera ditt arbete.

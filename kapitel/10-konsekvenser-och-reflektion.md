@@ -98,15 +98,6 @@ Skillnaden ligger i att du går från att konstatera till att väga för- och na
 - **Norm:** oskriven regel om vad som anses normalt.
 - **Träningsdata:** data som en AI-modell lär sig av.
 
-## Testa dig själv
-
-1. Vad är skillnaden mellan att beskriva och att värdera?
-2. Ge ett exempel på en konsekvens av ett program för individen och ett för samhället.
-3. På vilka sätt kan kod påverka elförbrukningen?
-4. Varför kan ett genomsnitt vara vilseledande när ett system testas?
-5. Hur kan gruppen som bygger ett system påverka resultatet?
-6. Vad gör det välutvecklade resonemanget som det enkla inte gör?
-
 ## Koppling till projektet
 
 Reflektion och konsekvensanalys hör till alla projekten: [Cyberintro](../projekt/cyberintro/README.md), [Önskeprojekt](../projekt/onskeprojekt/README.md), [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md) och [Robotik: Sköldpaddan](../projekt/skoldpaddan/README.md). Använd matrisen när du planerar och skriver om dina resultat.

@@ -112,16 +112,6 @@ Skriv kort och konkret. En rapport läses av någon som har ont om tid och vill 
 - **Trepunktsuppskattning:** en tidsuppskattning som väger ihop optimistisk, trolig och pessimistisk tid.
 - **Återbetalningstid:** den tid det tar innan nyttan har betalat kostnaden.
 
-## Testa dig själv
-
-1. Varför är förstudien billig jämfört med ett misslyckat projekt?
-2. Varför ska alternativet "gör inget" vara med?
-3. Varför är "Vill du ha en app?" en dålig intervjufråga?
-4. Ge ett eget exempel på ett funktionellt och ett icke-funktionellt krav.
-5. Vad i uppskattningen gör att den ofta blir högre än den troliga tiden?
-6. Vad saknas i exemplets räkning av återbetalningstid?
-7. Varför ska du skilja på det du vet och det du antar?
-
 ## Koppling till projektet
 
 Det här kapitlet används till den första delen av [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md). Exakt vad din rapport ska innehålla bestämmer läraren, men de här verktygen kan du använda oavsett upplägg.
