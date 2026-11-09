@@ -107,22 +107,6 @@ Skillnaden ligger i att du går från att konstatera till att väga för- och na
 5. Hur kan gruppen som bygger ett system påverka resultatet?
 6. Vad gör det välutvecklade resonemanget som det enkla inte gör?
 
-## Övningar
-
-**Grund.** Fyll i konsekvensmatrisen för en app du använder varje dag.
-
-**Grund.** En server drar 150 W dygnet runt. Hur många kWh per år blir det?
-
-<details><summary>Svar</summary>
-
-150 · 24 · 365 / 1000 = 1 314 kWh per år.
-
-</details>
-
-**Vidare.** Skriv om ett enkelt resonemang om en konsekvens av ditt eget projekt till ett utvecklat och ett välutvecklat.
-
-**Utmaning.** Välj ett verkligt system som använder automatiska beslut. Ta reda på med hjälp av pålitliga källor vilka konsekvenser det har fått och analysera dem utifrån individ, samhälle och teknisk utveckling.
-
 ## Koppling till projektet
 
 Reflektion och konsekvensanalys hör till alla projekten: [Cyberintro](../projekt/cyberintro/README.md), [Önskeprojekt](../projekt/onskeprojekt/README.md), [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md) och [Robotik: Sköldpaddan](../projekt/skoldpaddan/README.md). Använd matrisen när du planerar och skriver om dina resultat.

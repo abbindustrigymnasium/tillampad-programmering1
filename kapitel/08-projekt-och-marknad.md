@@ -107,22 +107,6 @@ Anpassa språket. Någon utan teknisk bakgrund behöver veta vad produkten gör 
 6. Vilket antagande i exemplet är mest osäkert, och hur kan du testa det?
 7. Varför bör en demonstration ha en reservplan?
 
-## Övningar
-
-**Grund.** Skriv ett värdeerbjudande för ett program du själv använder.
-
-**Grund.** En tjänst kostar 1 800 kronor per år att driva. Bidraget per användare är 10 kronor i månaden. Hur många användare behövs för att nå nollpunkten?
-
-<details><summary>Svar</summary>
-
-10 · 12 = 120 kronor per år och användare. 1 800 / 120 = 15 användare.
-
-</details>
-
-**Vidare.** Planera ett användartest för en produkt du har byggt. Skriv tre uppgifter och de frågor du ställer efteråt.
-
-**Utmaning.** Gör en pitch på två minuter för en idé. Spela in den, lyssna, och skriv ner vad du skulle förändra. Vilka antaganden i din pitch har du inte testat?
-
 ## Koppling till projektet
 
 Kapitlet täcker de delar som kommer efter förstudien i [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md). I lektionsplanen avslutas projektet med en redovisning, så presentationsdelen kommer till användning där.

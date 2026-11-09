@@ -109,22 +109,6 @@ Skriv en **projektlogg** med några rader per arbetspass: vad du gjorde, vad som
 5. Varför bygger du MVP:n först?
 6. Vad händer med planen om du inte reserverar tid för det oväntade?
 
-## Övningar
-
-**Grund.** Formulera problemet för en egen projektidé med mallen *för vem, vad, hur vet vi*.
-
-**Grund.** Skriv en backlogg med minst sex punkter och dela in dem med MoSCoW.
-
-**Vidare.** Du har 40 timmar och vill lägga undan 25 procent i buffert. Måste-kraven tar 20 timmar, Bör-kraven 12 och Kan-kraven 8. Hur mycket hinner du med?
-
-<details><summary>Svar</summary>
-
-40 · 0,75 = 30 timmar att planera med. Måste + Bör = 20 + 12 = 32 timmar, vilket är 2 timmar för mycket. Du behöver alltså ta bort eller minska Bör-krav med 2 timmar, och Kan-kraven får vänta.
-
-</details>
-
-**Utmaning.** Jämför vattenfall och Scrum för just din idé. Beskriv minst två konkreta situationer där valet skulle göra skillnad, och motivera vilken process du väljer.
-
 ## Koppling till projektet
 
 Det här kapitlet används först i [Önskeprojekt](../projekt/onskeprojekt/README.md), där du själv avgränsar vad du ska bygga. Planeringssätten kommer du att använda igen i [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md).

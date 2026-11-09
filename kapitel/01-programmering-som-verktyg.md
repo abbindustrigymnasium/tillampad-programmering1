@@ -65,7 +65,6 @@ LOGG = [
     "08:05 kontoB OK",
 ]
 
-
 def rakna_fel(rader):
     """Räknar misslyckade försök per konto."""
     antal = {}
@@ -75,11 +74,9 @@ def rakna_fel(rader):
             antal[konto] = antal.get(konto, 0) + 1
     return antal
 
-
 def misstankta(antal, grans=3):
     """Returnerar konton med minst grans misslyckade försök."""
     return [konto for konto, fel in antal.items() if fel >= grans]
-
 
 antal = rakna_fel(LOGG)
 print(antal)
@@ -121,16 +118,6 @@ Det här är en viktig princip i hela kursen. Ett program behandlar de **data** 
 4. Vad är tillståndet i funktionen `rakna_fel`?
 5. Varför är det bra att `misstankta` är en egen funktion?
 6. Varför kan programmet inte avgöra om `kontoB` är utsatt för en attack?
-
-## Övningar
-
-**Grund.** Lägg till fler rader i `LOGG` och kontrollera för hand att resultatet stämmer.
-
-**Grund.** Ändra programmet så att det i stället räknar hur många lyckade inloggningar varje konto har.
-
-**Vidare.** Skriv en funktion som tar fram vilket konto som har flest fel. Vad ska funktionen returnera om loggen är tom?
-
-**Utmaning.** Utöka raderna med en del till, till exempel en påhittad nätverksadress, och räkna fel per adress i stället för per konto. Vilka nya slutsatser går att dra, och vilka går fortfarande inte att dra?
 
 ## Koppling till projektet
 

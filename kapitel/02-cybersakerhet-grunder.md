@@ -108,28 +108,6 @@ Etik är inte bara regler. Den som kan säkerhet vet ofta hur skada görs, och v
 6. Varför gör tillstånd skillnad, om det du gör tekniskt sett är samma sak?
 7. Vad gör du om du råkar upptäcka en säkerhetsbrist på en webbplats?
 
-## Övningar
-
-**Grund.** Gör en riskmatris för ditt eget digitala liv med minst fyra risker. Vilken åtgärd ger mest nytta?
-
-**Grund.** Räkna ut hur många lösenord det finns med 6 siffror, och hur lång tid det tar att pröva alla med en miljard försök per sekund.
-
-<details><summary>Svar</summary>
-
-10⁶ = 1 000 000 kombinationer. 1 000 000 / 1 000 000 000 = 0,001 sekunder, alltså en millisekund.
-
-</details>
-
-**Vidare.** Räkna ut hur många gånger starkare ett lösenord på 10 små bokstäver är jämfört med ett på 8.
-
-<details><summary>Svar</summary>
-
-26¹⁰ / 26⁸ = 26² = 676 gånger fler möjliga lösenord.
-
-</details>
-
-**Utmaning.** Skriv ett kort regelverk på en halv sida för hur en klubb eller organisation ska kunna ge tillstånd till ett säkerhetstest. Vad måste stå i tillståndet för att alla ska veta vad som gäller?
-
 ## Koppling till projektet
 
 Det här är bakgrunden till [Cyberintro](../projekt/cyberintro/README.md). Oavsett hur läraren lägger upp projektet gäller regeln om tillstånd, och riskanalysen återkommer i [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md).

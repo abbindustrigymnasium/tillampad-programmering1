@@ -122,28 +122,6 @@ Skriv kort och konkret. En rapport läses av någon som har ont om tid och vill 
 6. Vad saknas i exemplets räkning av återbetalningstid?
 7. Varför ska du skilja på det du vet och det du antar?
 
-## Övningar
-
-**Grund.** Använd trepunktsuppskattning med O = 2, T = 5 och P = 20 timmar.
-
-<details><summary>Svar</summary>
-
-(2 + 4 · 5 + 20) / 6 = 42 / 6 = 7 timmar.
-
-</details>
-
-**Grund.** Lista minst fem intressenter för ett system som bokar tider till en tandläkare.
-
-**Vidare.** Ett program sparar fem minuter per dag åt 30 personer i 200 dagar per år och tar 100 timmar att bygga. Vad blir återbetalningstiden?
-
-<details><summary>Svar</summary>
-
-5 · 30 · 200 = 30 000 minuter = 500 timmar per år. 100 / 500 = 0,2 år, vilket är ungefär 2,4 månader.
-
-</details>
-
-**Utmaning.** Gör en beslutsmatris med minst tre alternativ för ett påhittat problem. Ändra vikterna och visa när rekommendationen ändras. Vad säger det om tillförlitligheten?
-
 ## Koppling till projektet
 
 Det här kapitlet används till den första delen av [Förstudie + projekt + marknad](../projekt/forstudie-projekt-marknad/README.md). Exakt vad din rapport ska innehålla bestämmer läraren, men de här verktygen kan du använda oavsett upplägg.

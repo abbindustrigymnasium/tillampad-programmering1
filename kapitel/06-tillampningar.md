@@ -53,7 +53,6 @@ Lösningen är att multiplicera med **delta time**, tiden sedan förra bilden:
 def ny_position(position, fart, delta_time):
     return position + fart * delta_time
 
-
 position_60 = 0.0
 for _ in range(60):
     position_60 = ny_position(position_60, 200, 1 / 60)
@@ -80,7 +79,6 @@ Så omvandlas en pixel till gråskala. Ögat upplever grönt som ljusare än bl�
 ```python
 def gra(r, g, b):
     return round(0.299 * r + 0.587 * g + 0.114 * b)
-
 
 print(gra(200, 100, 50))
 ```
@@ -118,28 +116,6 @@ Ett sätt att jämföra alternativ är en enkel tabell där varje alternativ få
 5. Varför måste film komprimeras?
 6. Vad är skillnaden mellan ett pedagogiskt program som rättar och ett som förklarar?
 7. Vilka frågor hjälper dig att välja verktyg?
-
-## Övningar
-
-**Grund.** Räkna ut hur många byte en okomprimerad bild i 1280 × 720 tar med tre färgkanaler.
-
-<details><summary>Svar</summary>
-
-1280 · 720 · 3 = 2 764 800 byte, cirka 2,8 MB.
-
-</details>
-
-**Grund.** Ett objekt rör sig 150 pixlar per sekund i 120 bilder per sekund. Hur långt flyttas det per bild?
-
-<details><summary>Svar</summary>
-
-150 · 1/120 = 1,25 pixlar per bild.
-
-</details>
-
-**Vidare.** Skriv en funktion som gör en liten bild, uttryckt som en lista med RGB-tripplar, till gråskala med `gra`.
-
-**Utmaning.** Välj två av områdena i tabellen och beskriv hur samma funktion, till exempel att spara data, ställer olika krav. Vilka säkerhets- och etikfrågor skiljer sig?
 
 ## Koppling till projektet
 

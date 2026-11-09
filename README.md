@@ -8,7 +8,7 @@ En översikt över kursen, dess delar och projekt: [Tillämpad programmering 1 -
 
 ## Så använder du boken
 
-Läs kapitlen i ordning. De följer kursens gång, och varje kapitel avslutas med frågor, övningar och en koppling till ett projekt. Övningarna är märkta **Grund**, **Vidare** och **Utmaning**, och svar på räkneuppgifter finns under rubriken Svar som du klickar fram.
+Läs kapitlen i ordning. De följer kursens gång, och varje kapitel avslutas med frågor och en koppling till ett projekt.
 
 Projekten beskrivs i egna mappar. Upplägget för projekten är ännu inte fastställt, och sidorna är märkta **Under planering**. Lyssna alltid på vad läraren säger om vad som gäller.
 

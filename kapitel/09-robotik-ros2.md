@@ -62,7 +62,6 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 
-
 class Cirkelkorare(Node):
     def __init__(self):
         super().__init__('cirkelkorare')
@@ -74,7 +73,6 @@ class Cirkelkorare(Node):
         kommando.linear.x = 2.0
         kommando.angular.z = 1.0
         self.pub.publish(kommando)
-
 
 def main():
     rclpy.init()
@@ -101,11 +99,9 @@ Om du håller logiken skild från ROS2 kan du testa den utan robot och utan simu
 KOR = "kor"
 VAND = "vand"
 
-
 def nara_kant(x, y, marginal=1.0, storlek=11.0):
     return (x < marginal or x > storlek - marginal
             or y < marginal or y > storlek - marginal)
-
 
 def nasta_tillstand(tillstand, nara, tid_i_tillstand, vandtid=1.5):
     if tillstand == KOR and nara:
@@ -113,7 +109,6 @@ def nasta_tillstand(tillstand, nara, tid_i_tillstand, vandtid=1.5):
     if tillstand == VAND and tid_i_tillstand >= vandtid:
         return KOR
     return tillstand
-
 
 assert nasta_tillstand(KOR, False, 0.0) == KOR
 assert nasta_tillstand(KOR, True, 0.0) == VAND
@@ -136,12 +131,10 @@ Positionen x = 5,5 hamnar i kolumn `int(5.5 / 11 * 8)` = `int(4.0)` = 4, om du b
 RUTOR = 8
 ARENA = 11.0
 
-
 def ruta(x, y):
     kolumn = min(RUTOR - 1, max(0, int(x / ARENA * RUTOR)))
     rad = min(RUTOR - 1, max(0, int(y / ARENA * RUTOR)))
     return rad, kolumn
-
 
 besokta = {ruta(5.5, 5.5), ruta(9.9, 5.5), ruta(5.5, 5.6)}
 print(len(besokta), "av", RUTOR * RUTOR, "rutor")
@@ -174,22 +167,6 @@ En simulering är en modell, och den har gränser. I turtlesim är positionen ex
 5. Vilka tillstånd finns i exemplet, och vad får roboten att byta?
 6. Varför är det bra att hålla logiken skild från ROS2-koden?
 7. Vad är det som en simulator inte kan visa?
-
-## Övningar
-
-**Grund.** Vilken vinkelfart ger en cirkel med radien 4 om farten är 2,0?
-
-<details><summary>Svar</summary>
-
-ω = v / r = 2,0 / 4 = 0,5 rad/s.
-
-</details>
-
-**Grund.** Lägg till fler tester för `nasta_tillstand`. Vad händer precis vid `vandtid`?
-
-**Vidare.** Utöka tillståndsmaskinen med ett tredje tillstånd, `STOPP`, som roboten går till när hela arenan är täckt. Skriv tester först.
-
-**Utmaning.** Simulera i vanlig Python en robot som kör slumpvis och en som kör i rader. Mät täckningen för båda efter samma antal steg med hjälp av `ruta` och jämför resultaten. Vilken strategi är bäst, och i vilka situationer?
 
 ## Koppling till projektet
 

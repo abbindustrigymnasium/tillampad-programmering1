@@ -29,11 +29,9 @@ import re
 
 ANVANDARNAMN = re.compile(r"[a-z0-9_]{3,20}")
 
-
 def giltigt_anvandarnamn(text):
     """Tillåter bara små bokstäver, siffror och understreck, 3-20 tecken."""
     return ANVANDARNAMN.fullmatch(text) is not None
-
 
 print(giltigt_anvandarnamn("anvandare_12"))
 print(giltigt_anvandarnamn("ab"))
@@ -75,7 +73,6 @@ import hashlib
 import hmac
 import secrets
 
-
 def hasha(losenord, salt=None):
     salt = salt or secrets.token_bytes(16)
     varde = hashlib.scrypt(
@@ -83,11 +80,9 @@ def hasha(losenord, salt=None):
     )
     return salt, varde
 
-
 def stammer(losenord, salt, sparat):
     _, varde = hasha(losenord, salt)
     return hmac.compare_digest(varde, sparat)
-
 
 salt, sparat = hasha("en lång lösenordsfras")
 print(stammer("en lång lösenordsfras", salt, sparat))
@@ -136,16 +131,6 @@ Ingen hinner stoppa allt. Därför ska ett system kunna upptäcka misstänkta m�
 5. Vad är saltets uppgift?
 6. Varför ska en lösenordshash vara långsam?
 7. Vad ska du göra om en API-nyckel råkar hamna på GitHub?
-
-## Övningar
-
-**Grund.** Ändra `giltigt_anvandarnamn` så att även stora bokstäver tillåts. Testa med fyra egna exempel, varav två ska avvisas.
-
-**Grund.** Lägg till ytterligare ett namn med apostrof i exempel 2 och visa att frågan fortfarande fungerar.
-
-**Vidare.** Skriv en funktion som låser ett konto efter fem misslyckade försök i rad och nollställer räknaren vid lyckad inloggning. Skriv tester med `assert`.
-
-**Utmaning.** Bygg en liten kontodatabas i SQLite där lösenord lagras med salt och hash enligt exempel 3. Skriv funktionerna `skapa_konto` och `logga_in`. Beskriv sedan vilka hot din lösning skyddar mot och vilka den inte skyddar mot.
 
 ## Koppling till projektet
 

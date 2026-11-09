@@ -45,7 +45,6 @@ def forsta_lediga(bokningar, langd, dag_start, dag_slut):
         return tid
     return None
 
-
 assert forsta_lediga([(540, 600), (630, 660)], 30, 540, 720) == 600
 assert forsta_lediga([], 60, 540, 720) == 540
 assert forsta_lediga([(540, 720)], 30, 540, 720) is None
@@ -128,22 +127,6 @@ Du får `0.30000000000000004` och `False`, eftersom talen lagras binärt och 0,1
 5. Hur många steg behöver binär sökning ungefär för en miljon tal?
 6. Varför ska du inte använda `==` på decimaltal?
 7. Vad betyder det att stopproblemet är olösbart?
-
-## Övningar
-
-**Grund.** Lägg till två egna tester för `forsta_lediga`, varav ett ska vara ett gränsfall där mötet precis får plats.
-
-**Grund.** Hur många steg krävs i värsta fall med binär sökning för en lista med 16 000 tal, ungefär?
-
-<details><summary>Svar</summary>
-
-log₂(16 000) ≈ 13,97, alltså ungefär 14 steg.
-
-</details>
-
-**Vidare.** Skriv funktionen `binar_sokning(lista, varde)` och låt den räkna hur många jämförelser den gör. Jämför med `in` för en lång lista.
-
-**Utmaning.** Skriv en funktion som tar fram alla lediga tider under en dag, inte bara den första. Skriv tester först.
 
 ## Koppling till projektet
 
