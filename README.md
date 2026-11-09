@@ -2,6 +2,10 @@
 
 Kursbok för TILL1000X vid Hitachigymnasiet Västerås. Kursen handlar om att använda programmering på verkliga områden, från cybersäkerhet och egna applikationer till robotik. Du lär dig också att arbeta i utvecklingsprocesser och att analysera vad programmering får för konsekvenser för människor och samhälle.
 
+## Kurspresentation
+
+En översikt över kursen, dess delar och projekt: [Tillämpad programmering 1 - Kurspresentation.pptx](Till%C3%A4mpad%20programmering%201%20-%20Kurspresentation.pptx)
+
 ## Så använder du boken
 
 Läs kapitlen i ordning. De följer kursens gång, och varje kapitel avslutas med frågor, övningar och en koppling till ett projekt. Övningarna är märkta **Grund**, **Vidare** och **Utmaning**, och svar på räkneuppgifter finns under rubriken Svar som du klickar fram.
